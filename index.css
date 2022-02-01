@@ -1,0 +1,90 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.hero-title {
+    margin: 0 auto;
+    font-size: 50px;
+    height: 75px;
+}
+
+.hero-subtitle {
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    top: 0;
+    left: 0;
+}
+
+.main-logo {
+    width: 175px;
+    max-width: 100%;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.hero-title .roman {
+    display: none;
+}
+
+.hero-title:hover .hangul {
+    display: none;
+}
+
+.hero-title:hover .roman {
+    display: inline;
+}
+
+#hero {
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    width: 200px;
+    font-family: 'lato';
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+}
+
